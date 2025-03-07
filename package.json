@@ -1,0 +1,28 @@
+{
+  "name": "playwright-extended",
+  "version": "1.0.0",
+  "description": "Extends Playwright pages with helpful functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js",
+    "serve": "glance -d test/fixture -v",
+    "lint": "prettier -w **/*.js && prettier -w index.js"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "extensions"
+  ],
+  "author": "Sean Gregory",
+  "license": "MIT",
+  "devDependencies": {
+    "glance": "^3.0.9",
+    "playwright": "^1.50.1",
+    "prettier": "^3.5.3",
+    "tap-min": "^3.0.0",
+    "tape": "^5.9.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.50.1"
+  }
+}
